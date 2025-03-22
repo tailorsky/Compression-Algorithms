@@ -1,0 +1,12 @@
+com\compressionWithBytes\Huffman\BitBuffer.class
+com\compressionWithBytes\Huffman\StaticHuffmanEncodingStream.class
+com\compressionWithBytes\BWTTestr.class
+com\compressionWithBytes\Huffman\BitToByteWriter.class
+com\compressionWithBytes\Huffman\CodeTreeNode.class
+com\compressionWithBytes\BWTBytes.class
+com\compressionWithBytes\Huffman\StaticHuffmanDecodingStream.class
+com\compressionWithBytes\CompressionApp.class
+com\compressionWithBytes\LZ78Bytes.class
+com\compressionWithBytes\LZSSBytes.class
+com\compressionWithBytes\RLEBytes.class
+com\compressionWithBytes\MTFBytes.class
