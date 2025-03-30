@@ -1,13 +1,13 @@
 package com.compressionWithBytes;
 
-import javax.swing.*;
-import java.awt.*;
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.*;
+import javax.swing.*;
+import java.awt.*;
 
-public class JpegToRawConverter {
-    public static void convertJpegToRaw(String inputPath, String outputPath) throws IOException {
+public class PngToRawConverter {
+    public static void convertPngToRaw(String inputPath, String outputPath) throws IOException {
         BufferedImage image = ImageIO.read(new File(inputPath));
         if (image == null) {
             throw new IOException("Не удалось прочитать изображение");
@@ -65,9 +65,10 @@ public class JpegToRawConverter {
     }
 
     public static void main(String[] args) throws IOException{
-        String inputPath = "dataset/bw.jpg";
+        String inputPath = "dataset/output.png";
         String outputPath = "bw.raw";
-        convertJpegToRaw(inputPath, outputPath);
-        //displayRawImage("decoded.raw", 735, 878);
+        convertPngToRaw(inputPath, outputPath);
+        displayRawImage("bw_image/bw_DECOMP_HA_LZW.raw", 735, 878);
     }
 }
+

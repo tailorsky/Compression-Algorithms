@@ -4,7 +4,7 @@ import java.io.*;
 import java.util.*;
 
 public class BWTBytes {
-    public static final int BLOCK_SIZE = 10240000;
+    public static final int BLOCK_SIZE = 1024;
 
     private static <T> void mergeSort(T[] array, Comparator<T> comparator) {
         if (array.length < 2) return;

@@ -130,7 +130,7 @@ public class TestAllCompressions {
         return outputFilePath;
     }
     public static void main(String[] args) throws IOException {
-        String inputFilePath = "eng_text/engtext";
+        String inputFilePath = "bw_image/bw.raw";
         String[] allTests = {"HA", "RLE", "BWT+RLE", "BWT+MTF+HA", "BWT+MTF+RLE+HA", "LZSS", "LZSS+HA", "LZW", "LZW+HA"};
         for (String tests : allTests) {
             long totalStart = System.nanoTime();

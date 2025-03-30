@@ -281,9 +281,9 @@ public class HuffmanBytes {
         return codeTreeNodes.get(0);
     }
     public static void main(String[] args) throws IOException {
-        File inputFile = new File("BW.raw.lzss");
+        File inputFile = new File("bw.raw.");
         File encodedFile = new File("ha");
-        File decodedFile = new File("BW.raw.lzss");
+        File decodedFile = new File("bwh.raw");
         CodeTreeNode tree = new CodeTreeNode(null, 0);
 
         try (InputStream inputStream = new FileInputStream(inputFile);
